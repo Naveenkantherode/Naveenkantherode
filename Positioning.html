@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		*{
+		padding:0;
+		margin:0;
+		}
+	div.div1{
+		background-color:maroon;
+		color:white;
+		position:static;
+		left:20px;
+		}
+	div.relative {
+		position:relative;
+		left:25px;
+		background-color:maroon;
+		color:white;
+		width:40%;
+		}
+	div.fixed{
+		position:fixed;
+		background-color: maroon;
+		color:white;
+		bottom:0;
+		right:0;
+	}	
+	.outer{
+		position:relative;
+		width:90%;
+		height:40vh;
+		background-color: maroon;
+		color:white;
+	}
+	.inner{
+		position:absolute;
+		width:40%;
+		background-color: rgb(11, 236, 112);
+		color:slategrey;
+		right:2%;
+		bottom:5%;
+	}
+	div.sticky{
+		position:sticky;
+		top: 0;
+		color:white;
+		background-color: maroon;
+		padding:5px;
+	}
+	</style>
+</head>
+<body>
+	<div class="div1">
+		<h1>Hi naveen This is static</h1>
+	</div>
+	<br>
+	<div class="relative">
+		<h1>Hi naveen This is relative</h1>
+	</div>
+	<br>
+	<div class="fixed">
+		<h2>This is fixed</h2>
+	</div>
+	
+		<div class="outer">
+			<h3>This is relative content....We can use all the other positioning feature but exception is static</h3>
+			<div class="inner">
+				<h1>This is absolute content....</h1>
+			</div>	
+		</div>
+		<br>	
+		<div class="sticky">
+			<h3>This is sticky feature but not work with e explorer and in safari we use <b style="color:aqua;">-webkit-sticky;</b></h3> 
+		</div>		
+		<br><br>
+		<p>Hi helooHi helooHi helooHi helooHi helooHi helooHi helooHi helooHi helooHi helooHi helooHi helooHi helooHi helooHi helooHi helooHi helooHi helooHi helooHi helooHi helooHi heloo</p>
+		<h3>Naveen</h3><h3>Naveen</h3><h3>Naveen</h3><h3>Naveen</h3><h3>Naveen</h3><h3>Naveen</h3>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</body>
+</html>
